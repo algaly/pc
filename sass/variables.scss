@@ -1,0 +1,54 @@
+$font:  Arial, sans-serif;
+$default-font-size: 14.5px;
+$font-size-small: 13.5px;
+$font-size-big: 16.5px;
+$default-container-padding: 15px;
+$default-container-heading-padding-v: $default-container-padding - 5;
+$default-container-heading-padding-h: $default-container-padding;
+$default-container-heading-padding: $default-container-heading-padding-v $default-container-heading-padding-h;
+$default-component-margin-bottom: 20px;
+$default-border-radius: 4px;
+
+// colors
+// ------
+$blue: #044666;
+$blue-light: #2c89b8;
+$blue-lighter: #9bc7dd;
+$blue-lightest: #e2eef4;
+
+$beige: #fdf9ee;
+
+$red: #c00909;
+
+$default-text-color: $blue;
+$error-color: $red;
+
+// container
+// ---------
+$container-padding: 20px;
+
+// left pane
+// ---------
+$left-pane-width: 320px;
+$left-pane-padding: $container-padding;
+
+// panel
+// -----
+$panel-heading-font-size: 16.5px;
+$panel-heading-background: $blue-lighter;
+$panel-heading-color: #fff;
+$panel-body-font-size: $panel-heading-font-size;
+$panel-list-font-size: $default-font-size;
+$panel-list-item-padding-left: 30px;
+$panel-list-item-padding: 3px 0;
+$panel-list-heading-color: $blue-light;
+
+$panel-drill-down-heading-color: $default-text-color;
+$panel-drill-down-drill-color: $panel-heading-color;
+
+// search
+// -----
+$search-font-size: $panel-heading-font-size;
+$search-padding: $default-container-padding - 5 $default-container-padding;
+$search-input-border-width: 3px;
+$search-input-border-radius: $default-border-radius;

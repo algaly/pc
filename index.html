@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pristine Dental Center</title>
+    <link rel="stylesheet" href="./dist/main.css">
+</head>
+
+<body>
+    <section class="container">
+        <section id="left-pane" class="pane">
+            <div class="logo-title">Pristine Dental Center</div>
+            <div id="logo">              
+            </div>
+            <div id="search" class="component">
+                <form action="">
+                    <input type="text" id="search-term" name="search-term" placeholder="Patient Search">
+                </form>
+            </div>
+
+            <div class="component panel" id="today-schedule">
+                <div class="panel-heading">
+                    <h4>today's schedule</h4>
+                </div>
+                <div class="panel-body">
+                    Click here to see today's appointments
+                </div>
+            </div>
+
+            <div class="component panel" id="tuesday-schedule">
+                <div class="panel-heading">
+                    <h4>tuesday's schedule</h4>
+                </div>
+                <div class="panel-body">
+                    <p class="text-error">You have 24 unconfirmed appointments</p>
+                    <a href="">Click here to see today's appointments</a>
+                </div>
+            </div>
+
+            <div class="component panel" id="today-stats">
+                <div class="panel-heading">
+                    <h4>today's stats</h4>
+                </div>
+                <div class="panel-body">
+                    <ul class="panel-list">
+                        <li class="panel-list-heading">Received</li>
+                        <li>27 Email Confirmations</li>
+                        <li>46 SMS Confirmations</li>
+                        <li>35 Voice Confirmations</li>
+                        <li>67 Other SMS Messages</li>
+                    </ul>
+                    <ul class="panel-list">
+                        <li class="panel-list-heading">Going out</li>
+                        <li>12 Birthday Greetings</li>
+                        <li>87 Confirmation Requests</li>
+                        <li>65 Automated Messages</li>
+                        <li>50 Voice Messages</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="component panel panel-drill-down">
+                <div class="panel-heading">
+                    <h4>total revenue</h4>
+                    <a href="">+</a>
+                </div>
+            </div>
+            <div class="component panel panel-drill-down">
+                <div class="panel-heading">
+                    <h4>total reviews</h4>
+                    <a href="">+</a>
+                </div>
+            </div>
+        </section>
+        <section id="right-pane" class="pane">
+            <nav id="sub-nav">
+                <ul class="nav">
+                    <li class="active"><a href="">Announcements</a><i class="badge badge-error">2</i></li>
+                    <li><a href="">Support</a></li>
+                    <li><a href="">Sign Out</a></li>
+                </ul>
+            </nav>
+            <nav id="main-nav">
+                <ul class="nav">
+                    <li class="active"><a href="">Home</a></li>
+                    <li><a href="">Appointments</a></li>
+                    <li><a href="">Patients</a></li>
+                    <li><a href="">Communication Center</a></li>
+                    <li><a href="">Settings</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+
+            <table id="alerts-table" class="panel">
+                <caption>
+                    <h4>alerts</h4></caption>
+                <tbody>
+                    <tr>
+                        <td>You have an empty appointment slot for today</td>
+                        <td><a href="">Click here to fill</a></td>
+                    </tr>
+                    <tr>
+                        <td>You have new Confirmations</td>
+                        <td><a href="">Click here to see</a></td>
+                    </tr>
+                    <tr>
+                        <td>You have new SMS messages</td>
+                        <td><a href="">Click here to see</a></td>
+                    </tr>
+                    <tr>
+                        <td>You have new Online Appointment</td>
+                        <td><a href="">Click here to see</a></td>
+                    </tr>
+                    <tr>
+                        <td>You have new Waitlist requests</td>
+                        <td><a href="">Click here to see</a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table id="sms-inbox-table" class="panel">
+                <caption>
+                    <h4>sms inbox</h4></caption>
+                <thead>
+                    <tr>
+                        <td>Time</td>
+                        <td>Last</td>
+                        <td>First</td>
+                        <td>Message</td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>11:46 AM</td>
+                        <td>O'Connor</td>
+                        <td>Susanne</td>
+                        <td>Need to reschedule. Some time Thurs?</td>
+                        <td><a href="">Reply</a></td>
+                    </tr>
+                    <tr>
+                        <td>9:07 AM</td>
+                        <td>Powers</td>
+                        <td>Brian</td>
+                        <td>Tooth hurting, need appt. when can I come?</td>
+                        <td><a href="">Reply</a></td>
+                    </tr>
+                    <tr>
+                        <td>8:29 AM</td>
+                        <td>Romano</td>
+                        <td>Stella</td>
+                        <td>Take med an hour or 2 before appt?</td>
+                        <td><a href="">Reply</a></td>
+                    </tr>
+                    <tr>
+                        <td>8:10 AM</td>
+                        <td>Chase</td>
+                        <td>Cameron</td>
+                        <td>I need a teeth cleaning appt and repair broken off cap on one of my teeth</td>
+                        <td><a href="">Reply</a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table id="confirmations-table" class="panel">
+                <caption>
+                    <h4>confirmations</h4></caption>
+                <thead>
+                    <tr>
+                        <td>Method</td>
+                        <td>ApptDate</td>
+                        <td>Last</td>
+                        <td>First</td>
+                        <td>Reply Text</td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>cell</td>
+                        <td>2/29/2016 2:30 PM</td>
+                        <td>Nelson</td>
+                        <td>Lou</td>
+                        <td>Oh, forgot about the appt. Can't tomorrow, how about next week?</td>
+                        <td><a href="">Reply</a></td>
+                    </tr>
+                    <tr>
+                        <td>mail</td>
+                        <td>2/25/2016 8:45 AM</td>
+                        <td>King</td>
+                        <td>Cecille</td>
+                        <td>ok great. see you then</td>
+                        <td><a href="">Reply</a></td>
+                    </tr>
+                    <tr>
+                        <td>cell</td>
+                        <td>2/29/2016 7:52 AM</td>
+                        <td>Sanchez</td>
+                        <td>Miguel</td>
+                        <td>can i bring daughter this Saturday?</td>
+                        <td><a href="">Reply</a></td>
+                    </tr>
+                    <tr>
+                        <td>cell</td>
+                        <td>2/25/2016 7:33 AM</td>
+                        <td>Griffin</td>
+                        <td>Marc</td>
+                        <td>yeah i can come. see you then.</td>
+                        <td><a href="">Reply</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </section>
+</body>
+
+</html>
