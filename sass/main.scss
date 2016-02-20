@@ -149,6 +149,7 @@ table {
 
     a {
         display: block;
+        white-space: nowrap;
         border: 1px solid $blue-lighter;
         padding: 10px;
         border-radius: $default-border-radius;
@@ -265,5 +266,28 @@ table {
             top: 35%;
             right: $default-container-heading-padding-h;
         }
+    }
+}
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+    .container {
+        flex-flow:column;
+    }
+    #tuesday-schedule {
+        display:none;   
+    }
+    #today-schedule {
+        display:none;
+    }
+    .panel-drill-down {
+        display:none;
+    }
+    #sub-nav {
+        display:none;
+    }
+    #main-nav {
+        display:none;
     }
 }
